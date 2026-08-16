@@ -1,9 +1,6 @@
 # Adversarial Attacks and Defenses
 
-INFO-6149 Machine Learning Security course project.
 
-**Author:** John Adelusi  
-**Dataset:** CIFAR-10  
 **Framework:** PyTorch
 
 This project trains an image classifier, attacks it with white-box adversarial examples, and evaluates defenses. Quantitative security metrics are reported throughout.
@@ -77,19 +74,5 @@ Produced automatically as `results/results_table.csv` and `figures/results_table
 | Recall | ✓ | ✓ | ✓ |
 | F1-score | ✓ | ✓ | ✓ |
 
-## Report & presentation
-
-After a full experiment, generate PDFs and PowerPoint slides:
-
-```bash
-
-```
-
-Outputs:
-
-
-## Bonus ideas
-
-- Black-box / transfer attack using a surrogate CNN (`+3`)  
-- Compare 3+ attacks (add DeepFool or CW) (`+2`)  
+pFool or CW) (`+2`)  
 - Small Streamlit dashboard over `results/metrics_detail.json` (`+2`)
